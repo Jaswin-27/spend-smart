@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SpendSmart</string>
+    <string name="title_activity_main">SpendSmart</string>
+    <string name="package_name">com.jalvrix.spendsmart</string>
+    <string name="custom_url_scheme">com.jalvrix.spendsmart</string>
+</resources>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar hiding and utility classes */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Base custom interactive style */
+button, a {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* Custom glow animations for premium feel */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(34, 197, 94, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+  }
+}
+
+.emerald-glow {
+  animation: pulseGlow 3s infinite;
+}

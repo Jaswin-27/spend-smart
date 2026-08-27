@@ -1,0 +1,6 @@
+{
+  "name": "SpendSmart by Jalvrix",
+  "description": "Mobile expense tracker app by Jalvrix (JRX). Save budget, manage transactions, and track stats offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
